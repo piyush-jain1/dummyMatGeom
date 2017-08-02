@@ -1,10 +1,8 @@
-# Copyright - Somebody
-# Bla bla
-# bla bla bla
-
-# texinfo
-# Help of function
+% Bla bla
+% bla bla bla
 
 function z = blabla (x,y)
-   z = x .* y;
-endfunction
+% Help of function
+for i=1:length(x)
+   z(i) = x(i)*y(i);
+end
